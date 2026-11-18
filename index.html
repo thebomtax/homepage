@@ -336,11 +336,11 @@
         <input type="hidden" name="subject" value="[더봄 홈페이지] 새 상담 신청">
         <input type="hidden" name="from_name" value="세무법인 더봄 홈페이지">
         <input type="checkbox" name="botcheck" style="display:none" tabindex="-1" autocomplete="off">
-        <label for="f-name">성함 / 회사명 <em>*</em></label><input id="f-name" type="text" name="성함_회사명" required maxlength="60">
-        <label for="f-tel">연락처 <em>*</em></label><input id="f-tel" type="tel" name="연락처" required maxlength="30" placeholder="010-0000-0000">
+        <label for="f-name">성함 / 회사명 <em>*</em></label><input id="f-name" type="text" name="Name" required maxlength="60">
+        <label for="f-tel">연락처 <em>*</em></label><input id="f-tel" type="tel" name="Phone" required maxlength="30" placeholder="010-0000-0000">
         <label for="f-cat">상담 분야</label>
-        <select id="f-cat" name="상담분야"><option>기장 대리</option><option>세무 신고 대리</option><option>상속·증여</option><option>세무조사 대응</option><option>양도소득세</option><option>경정청구·조세불복</option><option>기타</option></select>
-        <label for="f-msg">문의 내용 <em>*</em></label><textarea id="f-msg" name="문의내용" required maxlength="2000"></textarea>
+        <select id="f-cat" name="Service"><option>기장 대리</option><option>세무 신고 대리</option><option>상속·증여</option><option>세무조사 대응</option><option>양도소득세</option><option>경정청구·조세불복</option><option>기타</option></select>
+        <label for="f-msg">문의 내용 <em>*</em></label><textarea id="f-msg" name="Message" required maxlength="2000"></textarea>
         <details class="consent">
           <summary>개인정보 수집·이용 안내 (필수)</summary>
           <table>
@@ -350,7 +350,7 @@
           </table>
           <p>동의를 거부하실 수 있으나, 거부 시 온라인 상담 신청이 제한됩니다. 전화(02-3481-9242)로도 상담하실 수 있습니다. 신청 내용은 접수 대행 서비스(Web3Forms)를 거쳐 전달되며, 자세한 내용은 <a href="privacy.html" target="_blank">개인정보처리방침</a>을 확인해 주세요.</p>
         </details>
-        <div class="agree"><input type="checkbox" id="ag" name="개인정보동의" value="동의함" required><label for="ag" style="margin:0">위 개인정보 수집·이용에 동의합니다. (필수)</label></div>
+        <div class="agree"><input type="checkbox" id="ag" name="Privacy_Consent" value="동의함" required><label for="ag" style="margin:0">위 개인정보 수집·이용에 동의합니다. (필수)</label></div>
         <button class="submit" type="submit">상담 신청하기</button>
         <p class="fmsg" id="fmsg" role="status" aria-live="polite"></p>
       </form>
