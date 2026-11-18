@@ -2,3 +2,5 @@ User-agent: *
 Allow: /
 
 Sitemap: https://thebomtax.co.kr/sitemap.xml
+
+#DaumWebMasterTool:6283ba684f5598a00fe389506beb2edeba98a3a0bd9a7e5b4c621afcb6d9f830:LSr9wi71I6+MYd9iMzmuXg==
